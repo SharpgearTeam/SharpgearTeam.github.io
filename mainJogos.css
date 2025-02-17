@@ -52,3 +52,25 @@
 body {
     background-color: #000000;
 }
+
+/* Personalizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px;  /* Largura da barra de rolagem */
+    height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Personalizando o "trilho" da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #000000; /* Cor de fundo do trilho */
+}
+
+/* Personalizando o "polegar" da barra de rolagem (parte que o usuário arrasta) */
+::-webkit-scrollbar-thumb {
+    background-color: #1b1b1b; /* Cor do polegar */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Quando o "polegar" da barra de rolagem estiver sendo arrastado */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Cor do polegar quando estiver sendo arrastado */
+}
